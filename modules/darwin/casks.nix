@@ -1,0 +1,5 @@
+[
+  "bitwarden"
+  "obsidian"
+  "orion"
+]
