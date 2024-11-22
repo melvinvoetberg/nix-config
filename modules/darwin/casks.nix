@@ -1,0 +1,5 @@
+[
+  "betterdisplay"
+  "obsidian"
+  "protonvpn"
+]
