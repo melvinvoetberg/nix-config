@@ -6,8 +6,9 @@ _:
     userSettings = {
       assistant = {
         enabled = true;
+        version = "2";
         default_model = {
-          provider = "zed.dev";
+          provider = "copilot_chat";
           model = "gpt-4o";
         };
       };
