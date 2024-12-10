@@ -13,7 +13,7 @@ _:
         };
       };
 
-      buffer_font_family = "Source Code Pro";
+      buffer_font_family = "MesloLGS Nerd Font";
       buffer_font_size = 16;
       buffer_font_features = {
         salt = true;
