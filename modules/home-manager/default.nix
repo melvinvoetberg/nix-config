@@ -22,7 +22,7 @@
         ./programs/git.nix
         ./programs/mise.nix
         ./programs/neovim/default.nix
-        ./programs/oh-my-posh.nix
+        ./programs/oh-my-posh/default.nix
         ./programs/wezterm.nix
         ./programs/zed-editor.nix
         ./programs/zoxide.nix

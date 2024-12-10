@@ -6,5 +6,8 @@ _:
     useTheme = "gruvbox";
     enableBashIntegration = true;
     enableZshIntegration = true;
+    settings = builtins.fromJSON (
+      builtins.unsafeDiscardStringContext (builtins.readFile ./config.json)
+    );
   };
 }
