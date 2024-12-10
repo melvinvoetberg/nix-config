@@ -12,7 +12,6 @@ with pkgs; [
   libyaml
   mtr
   nixd
-  protonmail-desktop
   ripgrep
   signal-desktop
   wezterm
