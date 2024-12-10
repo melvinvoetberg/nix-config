@@ -16,6 +16,11 @@ _:
     };
     shellAliases = {
       k = "kubectl";
+      gac = "git add . && git commit -m";
+      gcb = "git checkout -b";
+      gc = "git checkout";
+      gp = "git push";
+      gl = "git pull";
     };
   };
 }
