@@ -10,4 +10,6 @@ _:
       builtins.unsafeDiscardStringContext (builtins.readFile ./config.json)
     );
   };
+
+  home.file."./.scripts/detect-framework.sh".source = ./detect-framework.sh;
 }

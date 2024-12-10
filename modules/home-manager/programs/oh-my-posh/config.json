@@ -127,17 +127,41 @@
         }
       ],
       "type": "prompt"
+    },
+    {
+      "segments": [
+        {
+          "type": "command",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "shell": "bash",
+            "script": "~/.scripts/detect-framework.sh"
+          }
+        },
+        {
+          "background": "#303030",
+          "foreground": "#3C873A",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "template": "\ue718 {{ .Full }}",
+          "trailing_diamond": "\ue0b4",
+          "type": "node"
+        }
+      ],
+      "type": "rprompt"
     }
   ],
   "tooltips": [
     {
       "type": "kubectl",
       "tips": ["kubectl", "kubectx", "k"],
-      "style": "powerline",
-      "powerline_symbol": "",
-      "foreground": "#000000",
-      "background": "#ebcc34",
-      "template": " ﴱ {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}} "
+      "background": "#316ce4",
+      "foreground": "#ffffff",
+      "leading_diamond": "\ue0b6",
+      "style": "diamond",
+      "template": "\uf308 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}",
+      "trailing_diamond": "\ue0b4"
     }
   ],
   "console_title_template": "{{ .Folder }}",

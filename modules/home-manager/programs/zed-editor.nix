@@ -9,7 +9,7 @@ _:
         version = "2";
         default_open_ai_model = null;
         default_model = {
-          provider = "copilot_chat";
+          provider = "openai";
           model = "gpt-4o";
         };
       };
