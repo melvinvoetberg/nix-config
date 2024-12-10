@@ -21,6 +21,7 @@ _:
       gc = "git checkout";
       gp = "git push";
       gl = "git pull";
+      zed = "zeditor";
     };
   };
 }

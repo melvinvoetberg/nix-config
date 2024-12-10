@@ -1,5 +1,5 @@
 _:
 
 {
-  xdg.configFile.".aerospace.toml".source = ./config.toml;
+  home.file.".aerospace.toml".source = ./config.toml;
 }
