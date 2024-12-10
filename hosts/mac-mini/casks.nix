@@ -6,4 +6,5 @@ in
 casks ++ [
   "figma"
   "minecraft"
+  "mongodb-compass"
 ]
