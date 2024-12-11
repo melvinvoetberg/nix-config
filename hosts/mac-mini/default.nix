@@ -27,7 +27,7 @@ in
       };
 
       imports = [
-        ./programs/aerospace.nix
+        ./programs/aerospace/default.nix
       ];
     };
   };
