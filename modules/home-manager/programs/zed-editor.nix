@@ -44,7 +44,7 @@ _:
       };
 
       terminal = {
-        font_family = "MesloLGS NF";
+        font_family = "MesloLGS Nerd Font";
       };
 
       theme = {
