@@ -15,6 +15,7 @@ with pkgs; [
   ripgrep
   signal-desktop
   wezterm
+  wireguard-tools
   zed-editor
   zellij
 ]

@@ -6,7 +6,10 @@ _:
     ignores = [
       ".DS_Store"
     ];
+
     userName = "Melvin Voetberg";
     userEmail = "git@melvinvoetberg.com";
+
+    extraConfig.init.defaultBranch = "main";
   };
 }
