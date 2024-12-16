@@ -87,6 +87,7 @@
       "DaisyDisk" = 411643860;
       "HTTPS Only for Safari" = 1447929601;
       "Keka" = 470158793;
+      "Noizio" = 928871589;
       "Passepartout" = 1433648537;
       "SponsorBlock for Safari" = 1573461917;
       "StopTheMadness Pro" = 6471380298;
