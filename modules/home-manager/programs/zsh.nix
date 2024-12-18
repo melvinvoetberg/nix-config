@@ -7,6 +7,8 @@ _:
       gpgconf --launch gpg-agent
 
       source ~/.zsh_env
+      setopt interactive_comments
+      preexec(){ _lc=$1; }
     '';
     oh-my-zsh = {
       enable = true;
@@ -16,7 +18,7 @@ _:
     };
     shellAliases = {
       k = "kubectl";
-      gac = "git add . && git commit -m";
+      gac = "git add . && git commit -m \"\${_lc#gac }\" #";
       gcb = "git checkout -b";
       gc = "git checkout";
       gp = "git push";
