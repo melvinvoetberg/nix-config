@@ -51,6 +51,7 @@ alt-9 = 'workspace 9'
 alt-a = 'workspace A'
 alt-c = 'workspace C'
 alt-d = 'workspace D'
+alt-f = 'workspace F'
 alt-g = 'workspace G'
 alt-m = 'workspace M'
 alt-q = 'workspace Q'
@@ -72,6 +73,7 @@ alt-shift-9 = 'move-node-to-workspace 9'
 alt-shift-a = 'move-node-to-workspace A'
 alt-shift-c = 'move-node-to-workspace C'
 alt-shift-d = 'move-node-to-workspace D'
+alt-shift-f = 'move-node-to-workspace F'
 alt-shift-g = 'move-node-to-workspace G'
 alt-shift-m = 'move-node-to-workspace M'
 alt-shift-q = 'move-node-to-workspace Q'
@@ -111,6 +113,10 @@ run = 'move-node-to-workspace C'
 [[on-window-detected]]
 if.app-id = 'com.hnc.Discord'
 run = 'move-node-to-workspace D'
+
+[[on-window-detected]]
+if.app-id = 'com.figma.Desktop'
+run = 'move-node-to-workspace F'
 
 [[on-window-detected]]
 if.app-id = 'com.spotify.client'
