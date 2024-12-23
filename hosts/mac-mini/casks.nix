@@ -7,5 +7,6 @@ casks ++ [
   "figma"
   "minecraft"
   "mongodb-compass"
+  "postico"
   "yubico-yubikey-manager"
 ]
