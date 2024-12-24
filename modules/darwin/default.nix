@@ -93,7 +93,6 @@
       "StopTheMadness Pro" = 6471380298;
       "Things" = 904280696;
       "WiFi Explorer: Scanner" = 494803304;
-      "Wipr 2" = 1662217862;
       "Xcode" = 497799835;
       "Yubico Authenticator" = 1497506650;
     };
