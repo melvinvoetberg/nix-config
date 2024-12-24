@@ -1,7 +1,7 @@
-{ pkgs, lib, home-manager, username, ... }:
+{ pkgs, lib, username, ... }:
 
 let
-  darwinModules = import ../../modules/darwin/default.nix { inherit home-manager pkgs username; };
+  darwinModules = import ../../modules/darwin/default.nix { inherit pkgs username; };
 in
 {
   homebrew = lib.recursiveUpdate darwinModules.homebrew {
@@ -12,7 +12,7 @@ in
     defaults = {
       dock = {
         persistent-apps = [
-          "/Applications/Orion.app"
+          "/System/Cryptexes/App/System/Applications/Safari.app"
           "/Applications/Obsidian.app"
           "${pkgs.wezterm}/Applications/Wezterm.app"
         ];
@@ -22,8 +22,12 @@ in
 
   home-manager = {
     users.${username} = { pkgs, ... }: {
+      home = {
+        packages = pkgs.callPackage ./packages.nix {};
+      };
+
       imports = [
-        ./programs/aerospace.nix
+        ./programs/aerospace/default.nix
       ];
     };
   };
