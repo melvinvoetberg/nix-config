@@ -64,8 +64,9 @@
         NewWindowTarget = "Computer";
       };
       NSGlobalDomain = {
-        KeyRepeat = 2;
         InitialKeyRepeat = 15;
+        KeyRepeat = 2;
+        NSAutomaticSpellingCorrectionEnabled = false;
         _HIHideMenuBar = false;
       };
       WindowManager = {
