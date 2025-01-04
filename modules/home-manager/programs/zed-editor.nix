@@ -14,6 +14,7 @@ _:
         };
       };
 
+      base_keymap = "SublimeText";
       buffer_font_family = "MesloLGS Nerd Font";
       buffer_font_size = 16;
       buffer_font_features = {
@@ -54,7 +55,6 @@ _:
       };
 
       ui_font_size = 16;
-      vim_mode = true;
     };
   };
 }
