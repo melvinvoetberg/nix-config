@@ -3,6 +3,7 @@
 with pkgs; [
   btop
   cilium-cli
+  ffmpeg
   fzf
   google-chrome
   gnupg
@@ -16,6 +17,7 @@ with pkgs; [
   signal-desktop
   wezterm
   wireguard-tools
+  yt-dlp
   zed-editor
   zellij
 ]
