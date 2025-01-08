@@ -66,6 +66,9 @@
       NSGlobalDomain = {
         InitialKeyRepeat = 15;
         KeyRepeat = 2;
+        NSAutomaticCapitalizationEnabled = false;
+        NSAutomaticInlinePredictionEnabled = false;
+        NSAutomaticPeriodSubstitutionEnabled = false;
         NSAutomaticSpellingCorrectionEnabled = false;
         _HIHideMenuBar = false;
       };
