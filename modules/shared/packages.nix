@@ -15,6 +15,7 @@ with pkgs; [
   nixd
   ripgrep
   signal-desktop
+  watchman
   wezterm
   wireguard-tools
   yt-dlp
