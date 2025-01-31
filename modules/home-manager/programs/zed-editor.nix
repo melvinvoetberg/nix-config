@@ -25,6 +25,19 @@ _:
         button = false;
       };
 
+      file_scan_exclusions = [
+        "**/.git"
+        "**/.svn"
+        "**/.hg"
+        "**/.jj"
+        "**/CVS"
+        "**/.DS_Store"
+        "**/Thumbs.db"
+        "**/.classpath"
+        "**/.settings"
+        "package-lock.json"
+      ];
+
       notification_panel = {
         button = false;
       };

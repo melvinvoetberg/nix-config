@@ -4,9 +4,9 @@ if [[ ! -f "package-lock.json" ]]; then
   exit 0
 fi
 
-frameworks=("nest" "nuxt" "expo")
-packages=("@nestjs/core" "nuxt" "expo")
-icons=("" "󱄆" "")
+frameworks=("hono" "nest" "next" "nuxt" "expo")
+packages=("hono" "@nestjs/core" "next" "nuxt" "expo")
+icons=("" "" "" "󱄆" "")
 
 dependencies=$(jq -c '.packages // {}' "package-lock.json")
 

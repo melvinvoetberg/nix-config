@@ -15,6 +15,7 @@ in
           "/System/Cryptexes/App/System/Applications/Safari.app"
           "/Applications/Obsidian.app"
           "${pkgs.wezterm}/Applications/Wezterm.app"
+          "/Applications/Cursor.app"
         ];
       };
     };
