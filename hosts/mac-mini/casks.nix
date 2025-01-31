@@ -5,8 +5,10 @@ let
 in
 casks ++ [
   "figma"
+  "firefox"
   "minecraft"
   "mongodb-compass"
   "postico"
+  "tor-browser"
   "yubico-yubikey-manager"
 ]
