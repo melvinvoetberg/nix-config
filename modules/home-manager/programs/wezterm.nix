@@ -19,7 +19,7 @@
 
       config.font = wezterm.font("MesloLGS Nerd Font")
       config.font_size = 16
-      config.color_scheme = 'Monokai (terminal.sexy)'
+      config.color_scheme = 'Monokai Pro (Gogh)'
 
       config.enable_tab_bar = false
       config.window_decorations = "RESIZE"

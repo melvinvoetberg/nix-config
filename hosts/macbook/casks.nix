@@ -5,10 +5,15 @@ let
 in
 casks ++ [
   "betterdiscord-installer"
+  "cursor"
+  "cyberduck"
   "docker"
   "figma"
+  "firefox"
   "minecraft"
   "mongodb-compass"
+  "obs"
   "postico"
+  "tor-browser"
   "yubico-yubikey-manager"
 ]

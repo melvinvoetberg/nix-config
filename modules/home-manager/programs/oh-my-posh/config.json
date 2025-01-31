@@ -155,7 +155,7 @@
   "tooltips": [
     {
       "type": "kubectl",
-      "tips": ["kubectl", "kubectx", "k"],
+      "tips": ["helm", "kubectl", "kubectx", "k"],
       "background": "#316ce4",
       "foreground": "#ffffff",
       "leading_diamond": "\ue0b6",

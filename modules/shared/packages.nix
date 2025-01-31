@@ -10,11 +10,13 @@ with pkgs; [
   k9s
   kubectl
   kubectx
+  kubernetes-helm
   libyaml
   mtr
   nixd
   ripgrep
   signal-desktop
+  talosctl
   watchman
   wezterm
   wireguard-tools
