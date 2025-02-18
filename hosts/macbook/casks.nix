@@ -5,6 +5,7 @@ let
 in
 casks ++ [
   "betterdiscord-installer"
+  "clop"
   "cursor"
   "cyberduck"
   "docker"
@@ -12,8 +13,11 @@ casks ++ [
   "firefox"
   "minecraft"
   "mongodb-compass"
+  "notion"
   "obs"
   "postico"
+  "proton-drive"
+  "redis-insight"
   "tor-browser"
   "yubico-yubikey-manager"
 ]
