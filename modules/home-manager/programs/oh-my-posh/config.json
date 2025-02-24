@@ -140,13 +140,32 @@
           }
         },
         {
+          "type": "bun",
+          "style": "diamond",
+          "background": "#303030",
+          "foreground": "#3C82F6",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b4",
+          "template": "\ue76f {{ .Full }}",
+          "properties": {
+            "display_mode": "files",
+            "extensions": [
+              "bun.lock",
+              "bun.lockb"
+            ]
+          }
+        },
+        {
+          "type": "node",
+          "style": "diamond",
           "background": "#303030",
           "foreground": "#3C873A",
           "leading_diamond": "\ue0b6",
-          "style": "diamond",
-          "template": "\ue718 {{ .Full }}",
           "trailing_diamond": "\ue0b4",
-          "type": "node"
+          "template": "{{ if not .Segments.Bun.Full }}\ue718 {{ .Full }}{{ end }}",
+          "properties": {
+            "display_mode": "files"
+          }
         }
       ],
       "type": "rprompt"
