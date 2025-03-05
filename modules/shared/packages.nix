@@ -4,6 +4,7 @@ with pkgs; [
   btop
   cilium-cli
   ffmpeg
+  fluxcd
   fzf
   google-chrome
   gnupg
@@ -16,7 +17,6 @@ with pkgs; [
   nixd
   ripgrep
   signal-desktop
-  talosctl
   watchman
   wezterm
   wireguard-tools
