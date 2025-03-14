@@ -15,10 +15,13 @@ with pkgs; [
   libyaml
   mtr
   nixd
+  nmap
   ripgrep
   signal-desktop
+  speedtest-cli
   watchman
   wezterm
+  wget
   wireguard-tools
   yt-dlp
   zed-editor
