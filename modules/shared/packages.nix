@@ -8,6 +8,7 @@ with pkgs; [
   fzf
   google-chrome
   gnupg
+  iperf3
   k9s
   kubectl
   kubectx
@@ -17,7 +18,7 @@ with pkgs; [
   nixd
   nmap
   ripgrep
-  signal-desktop
+  signal-desktop-bin
   speedtest-cli
   watchman
   wezterm

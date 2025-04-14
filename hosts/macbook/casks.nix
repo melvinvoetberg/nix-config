@@ -4,19 +4,19 @@ let
   casks = import ../../modules/darwin/casks.nix;
 in
 casks ++ [
-  "betterdiscord-installer"
+  "claude"
   "clop"
   "cursor"
   "cyberduck"
   "docker"
+  "dropshare"
   "figma"
   "firefox"
-  "minecraft"
   "mongodb-compass"
   "notion"
   "obs"
   "postico"
-  "proton-drive"
+  "prismlauncher"
   "redis-insight"
   "tor-browser"
   "yubico-yubikey-manager"
