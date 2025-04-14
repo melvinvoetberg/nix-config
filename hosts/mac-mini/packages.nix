@@ -7,6 +7,9 @@ in
 packages ++ [
   android-tools
   discord
+  exiftool
+  postgresql_17_jit
+  postman
   slack
   spotify
 ]
