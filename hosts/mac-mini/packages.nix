@@ -6,10 +6,14 @@ let
 in
 packages ++ [
   android-tools
+  coreutils
   discord
   exiftool
+  hcloud
+  packer
   postgresql_17_jit
   postman
   slack
   spotify
+  terraform
 ]
