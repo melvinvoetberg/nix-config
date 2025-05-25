@@ -6,11 +6,11 @@ in
 casks ++ [
   "claude"
   "clop"
-  "cursor"
   "cyberduck"
   "dropshare"
   "figma"
   "firefox"
+  "lm-studio"
   "mongodb-compass"
   "obs"
   "postico"

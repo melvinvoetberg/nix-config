@@ -16,7 +16,7 @@ in
           "/Applications/Proton Mail.app"
           "/Applications/Obsidian.app"
           "${pkgs.wezterm}/Applications/Wezterm.app"
-          "/Applications/Cursor.app"
+          "${pkgs.vscode}/Applications/Visual Studio Code.app"
         ];
       };
     };
