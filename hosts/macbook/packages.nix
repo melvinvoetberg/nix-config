@@ -18,5 +18,4 @@ packages ++ [
   slack
   spotify
   terraform
-  vscode
 ]

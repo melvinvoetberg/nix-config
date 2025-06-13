@@ -5,4 +5,5 @@
   "proton-mail"
   "protonvpn"
   "termius"
+  "raycast"
 ]
