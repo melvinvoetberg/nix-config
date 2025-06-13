@@ -9,5 +9,4 @@ packages ++ [
   bartender
   iina
   pinentry_mac
-  raycast
 ]

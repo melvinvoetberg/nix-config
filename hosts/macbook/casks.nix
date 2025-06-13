@@ -6,6 +6,7 @@ in
 casks ++ [
   "claude"
   "clop"
+  "cursor"
   "cyberduck"
   "docker"
   "dropshare"
