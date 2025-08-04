@@ -3,7 +3,7 @@ _:
 {
   programs.zsh = {
     enable = true;
-    initExtra = ''
+    initContent = ''
       gpgconf --launch gpg-agent
 
       source ~/.zsh_env

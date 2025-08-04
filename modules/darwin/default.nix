@@ -17,15 +17,18 @@
     })
   ];
 
+  networking = {
+    applicationFirewall = {
+      enable = true;
+      enableStealthMode = true;
+    };
+  };
+
   system = {
     stateVersion = 5;
     primaryUser = username;
 
     defaults = {
-      alf = {
-        globalstate = 1;
-        stealthenabled = 1;
-      };
       CustomUserPreferences = {
         "com.apple.AdLib" = {
           allowApplePersonalizedAdvertising = false;
