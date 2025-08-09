@@ -17,6 +17,7 @@ casks ++ [
   "mongodb-compass"
   "notion"
   "obs"
+  "postgres-unofficial"
   "postico"
   "prismlauncher"
   "redis-insight"
