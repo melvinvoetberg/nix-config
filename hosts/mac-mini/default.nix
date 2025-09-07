@@ -6,6 +6,9 @@ in
 {
   homebrew = lib.recursiveUpdate darwinModules.homebrew {
     casks = pkgs.callPackage ./casks.nix {};
+    brews = [
+      "valkey"
+    ];
   };
 
   system = {

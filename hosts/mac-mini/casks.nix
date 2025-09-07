@@ -14,6 +14,7 @@ casks ++ [
   "lm-studio"
   "mongodb-compass"
   "obs"
+  "postgres-unofficial"
   "postico"
   "prismlauncher"
   "redis-insight"
