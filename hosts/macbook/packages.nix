@@ -7,7 +7,6 @@ in
 packages ++ [
   android-tools
   coreutils
-  discord
   exiftool
   hcloud
   kind

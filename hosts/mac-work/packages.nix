@@ -8,11 +8,8 @@ packages ++ [
   android-tools
   coreutils
   exiftool
-  hcloud
-  packer
   postgresql_17_jit
   postman
   slack
   spotify
-  terraform
 ]
