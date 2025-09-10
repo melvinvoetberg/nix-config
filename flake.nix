@@ -33,6 +33,7 @@
         { name = "notebook"; system = "x86_64-darwin"; }
         { name = "macbook"; system = "aarch64-darwin"; }
         { name = "mac-mini"; system = "aarch64-darwin"; }
+        { name = "mac-work"; system = "x86_64-darwin"; }
       ];
     in
     {
